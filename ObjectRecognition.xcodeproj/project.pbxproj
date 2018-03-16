@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF3BFCB205BFBBA005484B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFCA205BFBBA005484B3 /* AppDelegate.swift */; };
+		ECF3BFCD205BFBBA005484B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFCC205BFBBA005484B3 /* ViewController.swift */; };
+		ECF3BFD0205BFBBA005484B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF3BFCE205BFBBA005484B3 /* Main.storyboard */; };
+		ECF3BFD3205BFBBA005484B3 /* ObjectRecognition.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFD1205BFBBA005484B3 /* ObjectRecognition.xcdatamodeld */; };
+		ECF3BFD5205BFBBA005484B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF3BFD4205BFBBA005484B3 /* Assets.xcassets */; };
+		ECF3BFD8205BFBBA005484B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF3BFD6205BFBBA005484B3 /* LaunchScreen.storyboard */; };
+		ECF3BFE3205BFBBA005484B3 /* ObjectRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFE2205BFBBA005484B3 /* ObjectRecognitionTests.swift */; };
+		ECF3BFEE205BFBBA005484B3 /* ObjectRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFED205BFBBA005484B3 /* ObjectRecognitionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECF3BFDF205BFBBA005484B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF3BFBF205BFBBA005484B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF3BFC6205BFBBA005484B3;
+			remoteInfo = ObjectRecognition;
+		};
+		ECF3BFEA205BFBBA005484B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECF3BFBF205BFBBA005484B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECF3BFC6205BFBBA005484B3;
+			remoteInfo = ObjectRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECF3BFC7205BFBBA005484B3 /* ObjectRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF3BFCA205BFBBA005484B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECF3BFCC205BFBBA005484B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECF3BFCF205BFBBA005484B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF3BFD2205BFBBA005484B3 /* ObjectRecognition.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObjectRecognition.xcdatamodel; sourceTree = "<group>"; };
+		ECF3BFD4205BFBBA005484B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF3BFD7205BFBBA005484B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECF3BFD9205BFBBA005484B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF3BFDE205BFBBA005484B3 /* ObjectRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF3BFE2205BFBBA005484B3 /* ObjectRecognitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRecognitionTests.swift; sourceTree = "<group>"; };
+		ECF3BFE4205BFBBA005484B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF3BFE9205BFBBA005484B3 /* ObjectRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF3BFED205BFBBA005484B3 /* ObjectRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRecognitionUITests.swift; sourceTree = "<group>"; };
+		ECF3BFEF205BFBBA005484B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF3BFC4205BFBBA005484B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF3BFDB205BFBBA005484B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF3BFE6205BFBBA005484B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF3BFBE205BFBBA005484B3 = {
+			isa = PBXGroup;
+			children = (
+				ECF3BFC9205BFBBA005484B3 /* ObjectRecognition */,
+				ECF3BFE1205BFBBA005484B3 /* ObjectRecognitionTests */,
+				ECF3BFEC205BFBBA005484B3 /* ObjectRecognitionUITests */,
+				ECF3BFC8205BFBBA005484B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF3BFC8205BFBBA005484B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF3BFC7205BFBBA005484B3 /* ObjectRecognition.app */,
+				ECF3BFDE205BFBBA005484B3 /* ObjectRecognitionTests.xctest */,
+				ECF3BFE9205BFBBA005484B3 /* ObjectRecognitionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF3BFC9205BFBBA005484B3 /* ObjectRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				ECF3BFCA205BFBBA005484B3 /* AppDelegate.swift */,
+				ECF3BFCC205BFBBA005484B3 /* ViewController.swift */,
+				ECF3BFCE205BFBBA005484B3 /* Main.storyboard */,
+				ECF3BFD4205BFBBA005484B3 /* Assets.xcassets */,
+				ECF3BFD6205BFBBA005484B3 /* LaunchScreen.storyboard */,
+				ECF3BFD9205BFBBA005484B3 /* Info.plist */,
+				ECF3BFD1205BFBBA005484B3 /* ObjectRecognition.xcdatamodeld */,
+			);
+			path = ObjectRecognition;
+			sourceTree = "<group>";
+		};
+		ECF3BFE1205BFBBA005484B3 /* ObjectRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF3BFE2205BFBBA005484B3 /* ObjectRecognitionTests.swift */,
+				ECF3BFE4205BFBBA005484B3 /* Info.plist */,
+			);
+			path = ObjectRecognitionTests;
+			sourceTree = "<group>";
+		};
+		ECF3BFEC205BFBBA005484B3 /* ObjectRecognitionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECF3BFED205BFBBA005484B3 /* ObjectRecognitionUITests.swift */,
+				ECF3BFEF205BFBBA005484B3 /* Info.plist */,
+			);
+			path = ObjectRecognitionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF3BFC6205BFBBA005484B3 /* ObjectRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF3BFF2205BFBBA005484B3 /* Build configuration list for PBXNativeTarget "ObjectRecognition" */;
+			buildPhases = (
+				ECF3BFC3205BFBBA005484B3 /* Sources */,
+				ECF3BFC4205BFBBA005484B3 /* Frameworks */,
+				ECF3BFC5205BFBBA005484B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectRecognition;
+			productName = ObjectRecognition;
+			productReference = ECF3BFC7205BFBBA005484B3 /* ObjectRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECF3BFDD205BFBBA005484B3 /* ObjectRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF3BFF5205BFBBA005484B3 /* Build configuration list for PBXNativeTarget "ObjectRecognitionTests" */;
+			buildPhases = (
+				ECF3BFDA205BFBBA005484B3 /* Sources */,
+				ECF3BFDB205BFBBA005484B3 /* Frameworks */,
+				ECF3BFDC205BFBBA005484B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF3BFE0205BFBBA005484B3 /* PBXTargetDependency */,
+			);
+			name = ObjectRecognitionTests;
+			productName = ObjectRecognitionTests;
+			productReference = ECF3BFDE205BFBBA005484B3 /* ObjectRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECF3BFE8205BFBBA005484B3 /* ObjectRecognitionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF3BFF8205BFBBA005484B3 /* Build configuration list for PBXNativeTarget "ObjectRecognitionUITests" */;
+			buildPhases = (
+				ECF3BFE5205BFBBA005484B3 /* Sources */,
+				ECF3BFE6205BFBBA005484B3 /* Frameworks */,
+				ECF3BFE7205BFBBA005484B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECF3BFEB205BFBBA005484B3 /* PBXTargetDependency */,
+			);
+			name = ObjectRecognitionUITests;
+			productName = ObjectRecognitionUITests;
+			productReference = ECF3BFE9205BFBBA005484B3 /* ObjectRecognitionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF3BFBF205BFBBA005484B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gary Hicks";
+				TargetAttributes = {
+					ECF3BFC6205BFBBA005484B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					ECF3BFDD205BFBBA005484B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECF3BFC6205BFBBA005484B3;
+					};
+					ECF3BFE8205BFBBA005484B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECF3BFC6205BFBBA005484B3;
+					};
+				};
+			};
+			buildConfigurationList = ECF3BFC2205BFBBA005484B3 /* Build configuration list for PBXProject "ObjectRecognition" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF3BFBE205BFBBA005484B3;
+			productRefGroup = ECF3BFC8205BFBBA005484B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF3BFC6205BFBBA005484B3 /* ObjectRecognition */,
+				ECF3BFDD205BFBBA005484B3 /* ObjectRecognitionTests */,
+				ECF3BFE8205BFBBA005484B3 /* ObjectRecognitionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF3BFC5205BFBBA005484B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF3BFD8205BFBBA005484B3 /* LaunchScreen.storyboard in Resources */,
+				ECF3BFD5205BFBBA005484B3 /* Assets.xcassets in Resources */,
+				ECF3BFD0205BFBBA005484B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF3BFDC205BFBBA005484B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF3BFE7205BFBBA005484B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF3BFC3205BFBBA005484B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF3BFCD205BFBBA005484B3 /* ViewController.swift in Sources */,
+				ECF3BFD3205BFBBA005484B3 /* ObjectRecognition.xcdatamodeld in Sources */,
+				ECF3BFCB205BFBBA005484B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF3BFDA205BFBBA005484B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF3BFE3205BFBBA005484B3 /* ObjectRecognitionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECF3BFE5205BFBBA005484B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF3BFEE205BFBBA005484B3 /* ObjectRecognitionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECF3BFE0205BFBBA005484B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF3BFC6205BFBBA005484B3 /* ObjectRecognition */;
+			targetProxy = ECF3BFDF205BFBBA005484B3 /* PBXContainerItemProxy */;
+		};
+		ECF3BFEB205BFBBA005484B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECF3BFC6205BFBBA005484B3 /* ObjectRecognition */;
+			targetProxy = ECF3BFEA205BFBBA005484B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECF3BFCE205BFBBA005484B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF3BFCF205BFBBA005484B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF3BFD6205BFBBA005484B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF3BFD7205BFBBA005484B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF3BFF0205BFBBA005484B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECF3BFF1205BFBBA005484B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF3BFF3205BFBBA005484B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObjectRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.ObjectRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECF3BFF4205BFBBA005484B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObjectRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.ObjectRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECF3BFF6205BFBBA005484B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObjectRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.ObjectRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectRecognition.app/ObjectRecognition";
+			};
+			name = Debug;
+		};
+		ECF3BFF7205BFBBA005484B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObjectRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.ObjectRecognitionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectRecognition.app/ObjectRecognition";
+			};
+			name = Release;
+		};
+		ECF3BFF9205BFBBA005484B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObjectRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.ObjectRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObjectRecognition;
+			};
+			name = Debug;
+		};
+		ECF3BFFA205BFBBA005484B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ObjectRecognitionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.ObjectRecognitionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ObjectRecognition;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF3BFC2205BFBBA005484B3 /* Build configuration list for PBXProject "ObjectRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF3BFF0205BFBBA005484B3 /* Debug */,
+				ECF3BFF1205BFBBA005484B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF3BFF2205BFBBA005484B3 /* Build configuration list for PBXNativeTarget "ObjectRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF3BFF3205BFBBA005484B3 /* Debug */,
+				ECF3BFF4205BFBBA005484B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF3BFF5205BFBBA005484B3 /* Build configuration list for PBXNativeTarget "ObjectRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF3BFF6205BFBBA005484B3 /* Debug */,
+				ECF3BFF7205BFBBA005484B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF3BFF8205BFBBA005484B3 /* Build configuration list for PBXNativeTarget "ObjectRecognitionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF3BFF9205BFBBA005484B3 /* Debug */,
+				ECF3BFFA205BFBBA005484B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECF3BFD1205BFBBA005484B3 /* ObjectRecognition.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECF3BFD2205BFBBA005484B3 /* ObjectRecognition.xcdatamodel */,
+			);
+			currentVersion = ECF3BFD2205BFBBA005484B3 /* ObjectRecognition.xcdatamodel */;
+			path = ObjectRecognition.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECF3BFBF205BFBBA005484B3 /* Project object */;
+}
