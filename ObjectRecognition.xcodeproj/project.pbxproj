@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1ED23C2072E48200DB03B5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1ED23B2072E48200DB03B5 /* TableViewController.swift */; };
+		EC1ED23E2072EF5700DB03B5 /* ManualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1ED23D2072EF5700DB03B5 /* ManualViewController.swift */; };
+		EC1ED2402072F65900DB03B5 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1ED23F2072F65900DB03B5 /* RecipeTableViewController.swift */; };
+		EC1ED24220745FC400DB03B5 /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1ED24120745FC400DB03B5 /* FavouritesTableViewController.swift */; };
 		ECF3BFCB205BFBBA005484B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFCA205BFBBA005484B3 /* AppDelegate.swift */; };
 		ECF3BFCD205BFBBA005484B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFCC205BFBBA005484B3 /* ViewController.swift */; };
 		ECF3BFD0205BFBBA005484B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF3BFCE205BFBBA005484B3 /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		ECF3BFD8205BFBBA005484B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF3BFD6205BFBBA005484B3 /* LaunchScreen.storyboard */; };
 		ECF3BFE3205BFBBA005484B3 /* ObjectRecognitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFE2205BFBBA005484B3 /* ObjectRecognitionTests.swift */; };
 		ECF3BFEE205BFBBA005484B3 /* ObjectRecognitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFED205BFBBA005484B3 /* ObjectRecognitionUITests.swift */; };
+		ECF3BFFC205C1A26005484B3 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = ECF3BFFB205C1A26005484B3 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EC1ED23B2072E48200DB03B5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EC1ED23D2072EF5700DB03B5 /* ManualViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualViewController.swift; sourceTree = "<group>"; };
+		EC1ED23F2072F65900DB03B5 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
+		EC1ED24120745FC400DB03B5 /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
 		ECF3BFC7205BFBBA005484B3 /* ObjectRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF3BFCA205BFBBA005484B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECF3BFCC205BFBBA005484B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,7 @@
 		ECF3BFE9205BFBBA005484B3 /* ObjectRecognitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectRecognitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECF3BFED205BFBBA005484B3 /* ObjectRecognitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectRecognitionUITests.swift; sourceTree = "<group>"; };
 		ECF3BFEF205BFBBA005484B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF3BFFB205C1A26005484B3 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +111,16 @@
 			children = (
 				ECF3BFCA205BFBBA005484B3 /* AppDelegate.swift */,
 				ECF3BFCC205BFBBA005484B3 /* ViewController.swift */,
+				EC1ED23F2072F65900DB03B5 /* RecipeTableViewController.swift */,
 				ECF3BFCE205BFBBA005484B3 /* Main.storyboard */,
+				EC1ED24120745FC400DB03B5 /* FavouritesTableViewController.swift */,
+				EC1ED23D2072EF5700DB03B5 /* ManualViewController.swift */,
+				EC1ED23B2072E48200DB03B5 /* TableViewController.swift */,
 				ECF3BFD4205BFBBA005484B3 /* Assets.xcassets */,
 				ECF3BFD6205BFBBA005484B3 /* LaunchScreen.storyboard */,
 				ECF3BFD9205BFBBA005484B3 /* Info.plist */,
 				ECF3BFD1205BFBBA005484B3 /* ObjectRecognition.xcdatamodeld */,
+				ECF3BFFB205C1A26005484B3 /* Resnet50.mlmodel */,
 			);
 			path = ObjectRecognition;
 			sourceTree = "<group>";
@@ -191,7 +206,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Gary Hicks";
 				TargetAttributes = {
 					ECF3BFC6205BFBBA005484B3 = {
@@ -264,6 +279,11 @@
 			files = (
 				ECF3BFCD205BFBBA005484B3 /* ViewController.swift in Sources */,
 				ECF3BFD3205BFBBA005484B3 /* ObjectRecognition.xcdatamodeld in Sources */,
+				ECF3BFFC205C1A26005484B3 /* Resnet50.mlmodel in Sources */,
+				EC1ED23C2072E48200DB03B5 /* TableViewController.swift in Sources */,
+				EC1ED2402072F65900DB03B5 /* RecipeTableViewController.swift in Sources */,
+				EC1ED24220745FC400DB03B5 /* FavouritesTableViewController.swift in Sources */,
+				EC1ED23E2072EF5700DB03B5 /* ManualViewController.swift in Sources */,
 				ECF3BFCB205BFBBA005484B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +353,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -340,6 +361,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -390,6 +412,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -397,6 +420,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -431,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BV5F2D88AC;
 				INFOPLIST_FILE = ObjectRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.ObjectRecognition;
@@ -445,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BV5F2D88AC;
 				INFOPLIST_FILE = ObjectRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = garyhicks.ObjectRecognition;
